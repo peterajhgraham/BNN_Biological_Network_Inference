@@ -1,3 +1,3 @@
-# PPI Network Inference Calculator
+# Biological Network Inference Calculator
 
-This repository contains a Bayesian Neural Network based inference calculator for protein-protein interaction networks.
+This repository contains a Bayesian Neural Network based inference calculator for biological network inference.
