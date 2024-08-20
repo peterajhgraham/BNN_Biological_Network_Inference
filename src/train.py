@@ -1,13 +1,14 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import torchbnn as bnn
 
 class BayesianNN(nn.Module):
     def __init__(self, input_dim):
         super(BayesianNN, self).__init__()
-        self.fc1 = nn.Linear(input_dim, 64)
-        self.fc2 = nn.Linear(64, 32)
-        self.fc3 = nn.Linear(32, 1)
+        self.fc1 = bnn.BayesLinear(prior_mu=0, prior_sigma=1, in_features=input_dim, out_features=64)
+        self.fc2 = bnn.BayesLinear(prior_mu=0, prior_sigma=1, in_features=64, out_features=32)
+        self.fc3 = bnn.BayesLinear(prior_mu=0, prior_sigma=1, in_features=32, out_features=1)
         self.relu = nn.ReLU()
         self.sigmoid = nn.Sigmoid()
 
