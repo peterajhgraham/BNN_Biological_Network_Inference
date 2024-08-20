@@ -4,6 +4,7 @@ This BNN BNI Analysis Tool is tailored toward individuals who are interested in 
 
 ## Directory Structure
 
+```
 BNN_Biological_Network_Inference/
 ├── data/
 │   └── example_data.csv
@@ -18,6 +19,7 @@ BNN_Biological_Network_Inference/
 ├── LICENSE
 ├── requirements.txt
 └── README.md
+```
 
 ## Example Databases that can be used (download via .csv)
 
