@@ -1,6 +1,6 @@
 # Bayesian Neural Network Biological Network Inference
 
-This BNN BNI Analysis Tool can be used for predictive insight in Biological Networks through the use of Bayesian Neural Networks. This repository can be used for any biological datasets, however it is tailored toward individuals who are interested in computational biology, computational systems biology, computational genomics, computational pharmacology, and computational neuroscience. It also made just as available to anyone who would like to use it for their own learning endeavours!
+This BNN BNI Analysis Tool can be used for predictive insight in Biological Networks through the use of Bayesian Neural Networks. This repository can be used for any biological datasets, however it is tailored toward individuals who are interested in neural networks/neural computation, computational biology, computational systems biology, computational genomics, computational pharmacology, and computational neuroscience. It is also made just as available to anyone who would like to use it for their own learning endeavours or to start their journey in any of these fields!
 
 ## Directory Structure
 
